@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Music {
+final class Music {
     let notes: [String]
     
     init(notes: [String]) {

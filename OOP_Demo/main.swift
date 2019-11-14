@@ -41,7 +41,7 @@ amplifier.unplug()
 print(electricGuitar.amplifier.volume)  //  0
 print(bassGuitar.amplifier.volume)  // 0
 
-// they are different types but it works because all of them share the same parent class
+// they are different types but it works because all of them share the same parent class. They perform according to its class type.
 let instruments = [piano, acousticGuitar, electricGuitar, bassGuitar]
 let band = Band(instruments: instruments)
 band.perform(music)

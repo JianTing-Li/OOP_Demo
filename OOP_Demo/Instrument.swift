@@ -24,7 +24,7 @@ class Instrument {
         return music.prepared()
     }
     
-    func perform(_ music: Music) {
+    final func perform(_ music: Music) {
         print(tune())
         print(play(music))
     }
